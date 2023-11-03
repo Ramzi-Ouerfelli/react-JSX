@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  background-image: none;
+  background-color: blue;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* App.css */
+.myObj {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.myImg {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Additional styles for the Alert component */
+.alert {
+  margin: 20px;
+}
+
+/* Additional styles for the Card component */
+.card {
+  margin: 20px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
 }
